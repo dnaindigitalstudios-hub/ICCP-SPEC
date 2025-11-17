@@ -1,0 +1,3 @@
+# Cargo.toml
+[dependencies]
+iccp-schema = { git = "https://github.com/axiom-org/iccp-spec", tag = "v1.0" }

@@ -1,0 +1,33 @@
+
+> 🗣️ *"Not an API. A language."*  
+> ICCP is a minimal, schema-first protocol for AI agents to *propose*, *negotiate*, and *audit* actions—before execution.
+
+---
+
+## 🧠 Core Philosophy
+
+| **Traditional APIs** | **ICCP** |
+|----------------------|----------|
+| Request → Response (synchronous) | Intent → Verdict (asynchronous) |
+| Endpoint sprawl | Topic-based broadcast |
+| Logs are *post-hoc* | Decisions are *pre-execution* |
+| Human-written contracts | Machine-verifiable schema |
+
+ICCP turns every agent interaction into a **constitutional negotiation** — where intent is serialized, judged, and immutably logged.
+
+---
+
+## 📦 Schema Overview (`v1.0`)
+
+### `ActionRequest`
+An agent’s *proposal* to act.
+```json
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "reply_topic": "iccp.reply.xxxx",
+  "source_service": "git-agent",
+  "resource": "iccp.action.git.push",
+  "action": "GIT_PUSH",
+  "payload": { "branch": "main", "hash": "a1b2c3" },
+  "timestamp": 1731729610
+}

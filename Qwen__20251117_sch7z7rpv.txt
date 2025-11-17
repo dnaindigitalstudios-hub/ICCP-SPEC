@@ -1,0 +1,20 @@
+
+---
+
+## 🔸 Repo 2: [`axiom-mesh`](https://github.com/axiom-org/axiom-mesh)  
+**Private | Commercial License | Enterprise-Grade Runtime**
+
+> 🛡️ *The Constitutional Mesh — A hardened, auditable runtime for ICCP-compliant agent systems.*  
+> Combines NATS transport, Rust enforcement, and cryptographic audit — deployable anywhere.
+
+---
+
+### ✅ `axiom-mesh/README.md`
+
+```markdown
+# ⬢ AXIOM MESH  
+### ✦ Infra for the Agentic Age ✦
+
+![License: Proprietary](https://img.shields.io/badge/license-Proprietary-red)
+![Deployment: On-Prem / Cloud / Air-Gapped](https://img.shields.io/badge/deployment-flexible-purple)
+![Audit: Cryptographically Verifiable](https://img.shields.io/badge/audit-Merkle--Chain-green)

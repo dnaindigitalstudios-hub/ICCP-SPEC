@@ -1,0 +1,7 @@
+{
+  "request_id": "550e8400-e29b-41d4-a716-446655440000",
+  "status": "ALLOW",
+  "message": "Policy matched: git.push @ dev-team",
+  "proof": "a1b2c3d4e5f6...",
+  "timestamp": 1731729610
+}

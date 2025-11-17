@@ -1,0 +1,22 @@
+
+> 🧠 *Not middleware. A nervous system.*  
+> Axiom enforces governance **at the transport layer** — so rogue behavior is structurally impossible.
+
+---
+
+## 🌟 Why Axiom?
+
+| Capability | Axiom Mesh | LangChain / CrewAI |
+|------------|------------|--------------------|
+| **Execution Safety** | Kernel-enforced sandbox | No isolation |
+| **Audit Integrity** | SHA-256 Merkle DAG | Append-only log (editable) |
+| **Offline Operation** | ✅ Full local-first sync | ❌ Cloud-dependent |
+| **Policy Enforcement** | Pre-execution judgment | Post-hoc tracing |
+| **Multi-Tenancy** | NATS Accounts + Isolated Warden | Manual orchestration |
+
+> ✅ Built for: Finance, Defense, Healthcare, Legal  
+> ✅ Compliant with: SOC 2, HIPAA, NIST AI RMF
+
+---
+
+## 🏗️ Architecture

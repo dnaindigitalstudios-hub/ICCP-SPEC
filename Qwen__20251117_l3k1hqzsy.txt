@@ -1,0 +1,12 @@
+iccp-spec/
+├── schema/
+│   ├── json/
+│   │   ├── action_request.json
+│   │   └── decision.json
+│   ├── protobuf/          # (Coming in v1.1)
+│   └── rust/              # `iccp-schema` crate exports
+├── examples/
+│   ├── negotiation_flow.md
+│   └── policy_matching.md
+├── LICENSE                # MIT
+└── README.md

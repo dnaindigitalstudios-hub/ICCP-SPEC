@@ -1,0 +1,1 @@
+pip install git+https://github.com/axiom-org/iccp-spec#subdirectory=sdk/python
