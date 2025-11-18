@@ -1,0 +1,15 @@
+# Build/compile artifacts
+/target/
+/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
