@@ -2,28 +2,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://iccp.dev/schema/v1.0/decision.json",
   "title": "ICCP Decision",
-  "description": "An immutable verdict on an ActionRequest — cryptographically anchored and auditable.",
   "type": "object",
   "required": ["request_id", "status", "message", "timestamp"],
-  "additionalProperties": false,
   "properties": {
-    "request_id": {
-      "type": "string",
-      "format": "uuid",
-      "description": "ID of the ActionRequest this decision responds to."
-    },
-    "status": {
-      "type": "string",
-      "enum": ["ALLOW", "DENY"],
-      "description": "Final verdict. Enforcement is structural — agents cannot proceed without ALLOW."
-    },
-    "message": {
-      "type": "string",
-      "description": "Human-readable reason (e.g., 'Policy matched: git.push @ dev-team')."
-    },
-    "timestamp": {
-      "type": "integer",
-      "description": "Unix timestamp (seconds since epoch)."
-    }
+    "request_id": { "type": "string", "format": "uuid" },
+    "status": { "type": "string", "enum": ["ALLOW", "DENY"] },
+    "message": { "type": "string" },
+    "timestamp": { "type": "integer" }
   }
 }

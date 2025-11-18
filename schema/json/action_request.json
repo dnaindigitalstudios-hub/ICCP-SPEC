@@ -2,36 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://iccp.dev/schema/v1.0/action_request.json",
   "title": "ICCP ActionRequest",
-  "description": "A structured intent to perform an action — the unit of negotiation in the Constitutional Mesh.",
   "type": "object",
   "required": ["id", "source_service", "resource", "action", "payload", "timestamp"],
-  "additionalProperties": false,
   "properties": {
-    "id": {
-      "type": "string",
-      "format": "uuid",
-      "description": "Globally unique request identifier."
-    },
-    "source_service": {
-      "type": "string",
-      "description": "Name of the agent/service proposing the action (e.g., 'git-adapter')."
-    },
-    "resource": {
-      "type": "string",
-      "description": "Target resource URI (e.g., 'iccp.action.git.push')."
-    },
-    "action": {
-      "type": "string",
-      "enum": ["GIT_PUSH", "GIT_PULL", "READ_FILE", "NEGOTIATE"],
-      "description": "The action being requested (SCREAMING_SNAKE_CASE)."
-    },
-    "payload": {
-      "type": "object",
-      "description": "Arbitrary JSON payload specific to the action."
-    },
-    "timestamp": {
-      "type": "integer",
-      "description": "Unix timestamp (seconds since epoch)."
-    }
+    "id": { "type": "string", "format": "uuid" },
+    "source_service": { "type": "string" },
+    "resource": { "type": "string" },
+    "action": { "type": "string", "enum": ["GIT_PUSH", "GIT_PULL", "READ_FILE", "NEGOTIATE"] },
+    "payload": { "type": "object" },
+    "timestamp": { "type": "integer" }
   }
 }
